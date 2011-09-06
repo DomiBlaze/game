@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1315319015 source:/home/domi/game/game/CApp.cpp
+	"CApp.h"
+
+1315318672 /home/domi/game/game/CApp.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL.h>
+
+1315293983 source:/home/domi/game/game/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1315294177 source:/home/domi/game/game/CApp_OnEvent.cpp
+	"CApp.h"
+
+1315294003 source:/home/domi/game/game/CApp_OnInit.cpp
+	"CApp.h"
+
+1315294133 source:/home/domi/game/game/CApp_OnLoop.cpp
+	"CApp.h"
+
+1315294125 source:/home/domi/game/game/CApp_OnRender.cpp
+	"CApp.h"
+
