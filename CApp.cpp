@@ -1,6 +1,7 @@
 #include "CApp.h"
 
 CApp::CApp() {
+    Surf_Test = NULL;
     Surf_Display = NULL;
     Running = true;
 }

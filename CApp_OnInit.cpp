@@ -9,5 +9,9 @@ bool CApp::OnInit() {
         return false;
     }
 
+    if((Surf_Test = CSurface::OnLoad("myimage.bmp")) == NULL) {
+        return false;
+    }
+
     return true;
 }

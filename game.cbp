@@ -31,6 +31,21 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Linker>
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+		</Linker>
+		<Unit filename="CApp.cpp" />
+		<Unit filename="CApp.h" />
+		<Unit filename="CApp_OnCleanup.cpp" />
+		<Unit filename="CApp_OnEvent.cpp" />
+		<Unit filename="CApp_OnInit.cpp" />
+		<Unit filename="CApp_OnLoop.cpp" />
+		<Unit filename="CApp_OnRender.cpp" />
+		<Unit filename="CEvent.cpp" />
+		<Unit filename="CEvent.h" />
+		<Unit filename="CSurface.cpp" />
+		<Unit filename="CSurface.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

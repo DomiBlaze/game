@@ -1,24 +1,18 @@
 #ifndef _CAPP_H_
     #define _CAPP_H_
-#include <SDL/SDL.h>
-#ifdef __cplusplus
-    #include <cstdlib>
-#else
-    #include <stdlib.h>
-#endif
-#ifdef __APPLE__
-#include <SDL/SDL.h>
-#else
-#include <SDL/SDL.h>
-#endif
 
+#include <SDL.h>
 
+#include "CEvent.h"
+#include "CSurface.h"
 
-class CApp {
+class CApp : public CEvent {
     private:
         bool            Running;
 
         SDL_Surface*    Surf_Display;
+
+        SDL_Surface*    Surf_Test;
 
     public:
         CApp();
@@ -29,6 +23,8 @@ class CApp {
         bool OnInit();
 
         void OnEvent(SDL_Event* Event);
+
+        void OnExit();
 
         void OnLoop();
 
